@@ -8,12 +8,15 @@ type Props = {
 
 export const Step: React.FC<Props> = ({ step, currentReward }) => {
   const normalizeNumber = (value: string) => Number(value.replace(/,/g, ''));
+  const isActive = normalizeNumber(step) === normalizeNumber(currentReward);
+  const isPrev = normalizeNumber(step) < normalizeNumber(currentReward);
 
   return (
     <div className="step-container">
+      <div className={cn("step-line", { "step-line--active": isActive})}></div>
       <div className={cn("step", {
-        "step--current": normalizeNumber(step) === normalizeNumber(currentReward),
-        "step--prev": normalizeNumber(step) < normalizeNumber(currentReward),
+        "step--current": isActive,
+        "step--prev": isPrev,
       })}>
         {`$${step}`}
       </div>

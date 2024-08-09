@@ -23,7 +23,7 @@ export default function Home() {
       ) : (
         <section className="game">
           <div className="game__main">
-            <p className="question">{question}</p>
+            <p className="game__question">{question}</p>
             <div className="answers-container">
               {answers.map((answer) => (
                   <Option answer={answer} checkAnswer={handleAnswer} key={answer.id}/>

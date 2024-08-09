@@ -1,35 +1,72 @@
 .option {
-  /* display: inline-flex; */
   width: 40%;
+  display: flex;
   align-items: center;
   padding: 10px 20px;
   border: 1px solid var(--color-black-40);
   border-radius: 12px;
   cursor: pointer;
+  background-color: var(--color-white-100);
 }
 
 .option:hover {
   border: 1px solid var(--color-orange-100);
 }
 
-.option:active {
-  border: 1px solid var(--color-orange-100);
-  background-color: var(--color-orange-5);
+.option--correct {
+  animation: correct 3s ease forwards;
 }
 
-.option--correct {
-  border: 1px solid var(--color-green-100);
-  background-color: var(--color-green-5);
+@keyframes correct {
+  0%,
+  25% {
+    border: 1px solid var(--color-orange-100);
+    background-color: var(--color-orange-5);
+  }
+  33%,
+  66%,
+  99% {
+    border: 1px solid var(--color-green-100);
+    background-color: var(--color-green-5);
+  }
+  0%,
+  40%,
+  80% {
+    border: 1px solid var(--color-black-40);
+    background-color: var(--color-white-100);
+  }
 }
+
 
 .option--wrong {
+  animation: wrong 3s ease forwards;
   border: 1px solid var(--color-red-100);
   background-color: var(--color-red-5);
 }
 
+@keyframes wrong {
+  0%,
+  25% {
+    border: 1px solid var(--color-orange-100);
+    background-color: var(--color-orange-5);
+  }
+  33%,
+  66%,
+  99% {
+    border: 1px solid var(--color-red-100);
+    background-color: var(--color-red-5);
+  }
+  0%,
+  40%,
+  80% {
+    border: 1px solid var(--color-black-40);
+    background-color: var(--color-white-100);
+  }
+}
+
 
 .option__letter {
-  margin-right: 8px;
+  margin-right: 12px;
   font-size: 20px;
   font-weight: 600;
   color: var(--color-orange-100);
