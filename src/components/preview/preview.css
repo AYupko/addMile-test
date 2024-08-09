@@ -1,0 +1,35 @@
+.preview {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 80px;
+
+  background: linear-gradient(to bottom right, var(--color-white-100) 50%, var(--color-orange-5) 50%);
+
+}
+
+.preview__title {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.preview__right {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.preview__score {
+  color: var(--color-black-100);
+  opacity: 50%;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: -58px;
+}
+
+.preview__reward {
+  font-size: 56px;
+  font-weight: 600;
+  color: var(--color-black-100);
+}

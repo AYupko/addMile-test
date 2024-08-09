@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is React?",
+    "answers": [
+      { "id": "A", "text": "A library for building user interfaces", "correct": true },
+      { "id": "B", "text": "A framework for building user interfaces", "correct": false },
+      { "id": "C", "text": "A programming language", "correct": false },
+      { "id": "D", "text": "A web server", "correct": false }
+    ],
+    "reward": "500"
+  },
+  {
+    "question": "Who developed React?",
+    "answers": [
+      { "id": "A", "text": "Google", "correct": false },
+      { "id": "B", "text": "Facebook", "correct": true },
+      { "id": "C", "text": "Twitter", "correct": false },
+      { "id": "D", "text": "Microsoft", "correct": false }
+    ],
+    "reward": "1,000"
+  },
+  {
+    "question": "What is a component in React?",
+    "answers": [
+      { "id": "A", "text": "A reusable piece of UI", "correct": true },
+      { "id": "B", "text": "A function that fetches data", "correct": false },
+      { "id": "C", "text": "A tool for state management", "correct": false },
+      { "id": "D", "text": "A CSS class", "correct": false }
+    ],
+    "reward": "2,000"
+  },
+  {
+    "question": "What is JSX?",
+    "answers": [
+      { "id": "A", "text": "A syntax extension for JavaScript", "correct": true },
+      { "id": "B", "text": "A CSS preprocessor", "correct": false },
+      { "id": "C", "text": "A state management library", "correct": false },
+      { "id": "D", "text": "A testing framework", "correct": false }
+    ],
+    "reward": "4,000"
+  },
+  {
+    "question": "How do you create a stateful component in React?",
+    "answers": [
+      { "id": "A", "text": "Using the useState hook", "correct": true },
+      { "id": "B", "text": "Using the useEffect hook", "correct": false },
+      { "id": "C", "text": "Using the useContext hook", "correct": false },
+      { "id": "D", "text": "Using the useReducer hook", "correct": false }
+    ],
+    "reward": "8,000"
+  },
+  {
+    "question": "What is the use of the useEffect hook?",
+    "answers": [
+      { "id": "A", "text": "To perform side effects in functional components", "correct": true },
+      { "id": "B", "text": "To manage state in functional components", "correct": false },
+      { "id": "C", "text": "To create context in React", "correct": false },
+      { "id": "D", "text": "To memoize functions", "correct": false }
+    ],
+    "reward": "16,000"
+  },
+  {
+    "question": "How do you pass data to a child component?",
+    "answers": [
+      { "id": "A", "text": "Using props", "correct": true },
+      { "id": "B", "text": "Using state", "correct": false },
+      { "id": "C", "text": "Using context", "correct": false },
+      { "id": "D", "text": "Using refs", "correct": false }
+    ],
+    "reward": "32,000"
+  },
+  {
+    "question": "What is the purpose of keys in React?",
+    "answers": [
+      { "id": "A", "text": "To uniquely identify elements in a list", "correct": true },
+      { "id": "B", "text": "To store state in a component", "correct": false },
+      { "id": "C", "text": "To handle user inputs", "correct": false },
+      { "id": "D", "text": "To bind event listeners", "correct": false }
+    ],
+    "reward": "64,000"
+  },
+  {
+    "question": "What is a higher-order component?",
+    "answers": [
+      { "id": "A", "text": "A function that takes a component and returns a new component", "correct": true },
+      { "id": "B", "text": "A component that is used at the top level of the application", "correct": false },
+      { "id": "C", "text": "A component that manages state", "correct": false },
+      { "id": "D", "text": "A component that is responsible for rendering a list", "correct": false }
+    ],
+    "reward": "125,000"
+  },
+  {
+    "question": "How do you handle events in React?",
+    "answers": [
+      { "id": "A", "text": "Using event listeners", "correct": false },
+      { "id": "B", "text": "Using event handlers", "correct": true },
+      { "id": "C", "text": "Using state", "correct": false },
+      { "id": "D", "text": "Using props", "correct": false }
+    ],
+    "reward": "250,000"
+  },
+  {
+    "question": "What is the purpose of the useReducer hook?",
+    "answers": [
+      { "id": "A", "text": "To manage complex state logic", "correct": true },
+      { "id": "B", "text": "To fetch data", "correct": false },
+      { "id": "C", "text": "To create context", "correct": false },
+      { "id": "D", "text": "To perform side effects", "correct": false }
+    ],
+    "reward": "500,000"
+  },
+  {
+    "question": "What is the context API used for?",
+    "answers": [
+      { "id": "A", "text": "To pass data through the component tree without prop drilling", "correct": true },
+      { "id": "B", "text": "To manage state in class components", "correct": false },
+      { "id": "C", "text": "To handle routing in React applications", "correct": false },
+      { "id": "D", "text": "To create higher-order components", "correct": false }
+    ],
+    "reward": "1,000,000"
+  }
+]
