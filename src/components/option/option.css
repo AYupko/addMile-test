@@ -7,6 +7,20 @@
   border-radius: 12px;
   cursor: pointer;
   background-color: var(--color-white-100);
+  height: 72px;
+}
+
+@media (max-width: 599px) {
+  .option {
+    width: 100%;
+    height: 56px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .option {
+    width: 300px;
+  }
 }
 
 .option:hover {
