@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Who wants to be a millionare? 
 
-## Getting Started
+## [DEMO](https://star-wars-heroes-lovat.vercel.app/)
 
-First, run the development server:
+## Description
+  This web application allows users to test their theoretical knowledge about React with playing well-known game "Who Wants to Be a Millionaire?". Dive into a fun and educational challenge with React-themed version of the classic game show.
+". 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies
+  JavaScript, React, Next.js, TypeScript, CSS, HTML;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
+  - Test your understanding of React concepts, from basic principles to advanced techniques.
+  - Easily modify the game’s configuration to set your own questions, answers, and adapt the quiz to suit your needs
+  - Play and enjoy the game seamlessly on any device — smartphone, tablet, or desktop with friendly and intuitive design.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation and Local Setup
+  ### Clone the repository
+  git clone https://github.com/AYupko/addMile-test.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  ### Install dependencies
+  npm install
 
-## Learn More
+  ### Start the project
+  npm run dev
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
