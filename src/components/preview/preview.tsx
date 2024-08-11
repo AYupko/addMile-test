@@ -12,7 +12,7 @@ export const Preview:React.FC<Props> = ({ onStart, preview, reward }) => {
   return (
     <section className="preview">
       <div className="preview__left">
-        <Image src="/hand.png" alt='preview-hand' width={500} height={300}/>
+        <Image src="/hand.png" alt='preview-hand' width={500} height={300} className='preview__image'/>
       </div>
       <div className="preview__right">
         {preview === 'initial' ? (

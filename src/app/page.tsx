@@ -1,10 +1,11 @@
 "use client";
 import cn from "classnames";
+import '../styles/home.css';
 import { Option } from "@/components/option";
 import { Preview } from "@/components/preview";
-import { Step } from "@/components/step";
 import { useGameConfig } from "@/hooks/useGameConfig";
 import { useState } from "react";
+import { Ladder } from "@/components/ladder";
 
 export default function Home() {
   const [menuActive, setMenuActive] = useState(false);
@@ -28,7 +29,6 @@ export default function Home() {
             <a
               href="#"
               className={cn("icon", {
-                "icon--close": menuActive,
                 "icon--menu": !menuActive,
               })}
               onClick={toggleMenu}
@@ -44,11 +44,12 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <aside className="game__ladder">
-            {allRewards.map((reward) => (
-              <Step step={reward} currentReward={currReward} key={reward} />
-            ))}
-          </aside>
+          <Ladder
+            allRewards={allRewards}
+            currReward={currReward}
+            menuActive={menuActive}
+            toggleMenu={toggleMenu}
+          />
         </section>
       )}
     </main>

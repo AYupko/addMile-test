@@ -1,0 +1,23 @@
+.ladder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ladder__small {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: var(--color-black-5);
+  transform: translateX(100%);
+  transition: all 0.3s;
+}
+
+.ladder__small--open {
+  transform: translateX(0);
+}
