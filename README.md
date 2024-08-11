@@ -1,4 +1,4 @@
-# Who wants to be a millionare? 
+# Who wants to be a millionaire? 
 
 ## [DEMO](https://star-wars-heroes-lovat.vercel.app/)
 
