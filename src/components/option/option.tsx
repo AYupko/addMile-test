@@ -7,7 +7,7 @@ type Props = {
 
 export const Option: React.FC<Props> = ({ answer, checkAnswer }) => {
   const [className, setClassName] = useState('');
-  const setDelay = () => {
+  const handleClick = () => {
     setClassName(answer.correct ? 'option--correct' : 'option--wrong');
     setTimeout(() => {
       checkAnswer(answer.correct);
@@ -15,7 +15,7 @@ export const Option: React.FC<Props> = ({ answer, checkAnswer }) => {
     }, 2000);
   };
   return (
-    <div className={`option ${className}`} onClick={() => setDelay()}>
+    <div className={`option ${className}`} onClick={() => handleClick()}>
       <span className="option__letter">{answer.id}</span>
       <span className="option__text">{answer.text}</span>
     </div>

@@ -1,0 +1,23 @@
+.icon {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  top: 16px;
+  right: 16px;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .icon {
+    display: block;
+  }
+}
+
+.icon--menu {
+  background-image: url('/Menu.svg');
+}
+
+.icon--close {
+  background-image: url('/Close.svg');
+}

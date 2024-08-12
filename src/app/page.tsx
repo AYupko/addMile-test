@@ -1,10 +1,11 @@
 "use client";
 import cn from "classnames";
 import '../styles/home.css';
+import '../styles/icons.css';
+import { useState } from "react";
+import { useGameConfig } from "@/hooks/useGameConfig";
 import { Option } from "@/components/option";
 import { Preview } from "@/components/preview";
-import { useGameConfig } from "@/hooks/useGameConfig";
-import { useState } from "react";
 import { Ladder } from "@/components/ladder";
 
 export default function Home() {
