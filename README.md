@@ -1,6 +1,6 @@
 # Who wants to be a millionaire? 
 
-## [DEMO](https://star-wars-heroes-lovat.vercel.app/)
+## [DEMO](https://add-mile-test.vercel.app/)
 
 ## Description
   This web application allows users to test their theoretical knowledge about React with playing well-known game "Who Wants to Be a Millionaire?". Dive into a fun and educational challenge with React-themed version of the classic game show.
